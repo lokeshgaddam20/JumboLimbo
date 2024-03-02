@@ -23,12 +23,14 @@ export default function Navbar({}): any {
           src="/images/logo.svg"
           height={100}
           width={170}
-        /> */}Quick-Convo
+        /> */}<Button variant="ghost" className="font-semibold text-md">
+            JumboLimbo
+          </Button>
       </Link>
       <div className="gap-1 md:gap-2 lg:gap-4 hidden md:flex">
-        <Button variant="ghost" className="font-semibold text-md">
+        {/* <Button variant="ghost" className="font-semibold text-md">
           <Link href="/">Home</Link>
-        </Button>
+        </Button> */}
         {/* <Link href="/about">
           <Button variant="ghost" className="font-semibold text-md">
             About
